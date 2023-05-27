@@ -22,7 +22,7 @@ public class User extends BaseModel implements UserDetails {
     @Column(unique = true)
     private String email;
     private String password;
-    private Long phoneNumber;
+    private String phoneNumber;
     private String avatar;
     private String address;
 
